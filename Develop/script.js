@@ -2,7 +2,7 @@
  function generatePassword(){
    var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
    var lowerCase = "abcdefghijklmnopqrstuvwxyz";
-   var numbers = "0123456789"
+   var numbers = "0123456789";
    var allOptions = "";
    var finalPassword = "";
    var userPasswordLength = prompt("Enter your password length between 8-128");
