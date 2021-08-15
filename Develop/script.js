@@ -8,7 +8,7 @@
    var userPasswordLength = prompt("Enter your password length between 8-128");
    var userLowerCase = confirm("Do you want to use lowercase?");
    var userUppercase = confirm("Do you want to use uppercase?");
-   var numbers = confirm("Do you want numbers?")
+   var numbersEl = confirm("Do you want numbers?");
    var index = 0
 
    console.log(allOptions)
@@ -25,7 +25,7 @@
 
    console.log(allOptions)
 
-   if (numbers == true){
+   if (numbersEl == true){
      allOptions = allOptions + numbers;
    }
 
